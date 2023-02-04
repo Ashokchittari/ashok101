@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  background: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 100vh;
+  padding: 30px;
+  padding-left: 50px;
+}
+.logo-img {
+  height: 40px;
+  padding-bottom: 10px;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #5763a5;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 30px;
+}
+.input-container {
+  background-color: #454f84;
+  border-radius: 5px;
+}
+.add-password {
+  color: white;
+  margin: 10px;
+  padding: 5px;
+}
+.input-1 {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.input-2 {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.input-3 {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.add-button {
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+  width: 60px;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  height: 34px;
+  margin-left: 145px;
+}
+.website-img {
+  height: 20px;
+}
+.username-img {
+  height: 20px;
+}
+.password-img {
+  height: 20px;
+}
+input {
+  border-width: 0px;
+}
+.password-manager-img {
+  height: 220px;
+}
+.main-container-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20x;
+  margin: 10px;
+  background-color: #5763a5;
+  border-radius: 5px;
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 30px;
+}
+.search-img {
+  height: 30px;
+}
+.search-input {
+  height: 30px;
+  border-width: 0px;
+}
+.hr-line {
+  width: 98%;
+}
+.show-password-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.no-pswd-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+}
+.nopassword {
+  height: 200px;
+}
+.main-container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-style: solid;
+  margin: 10px;
+  border-width: 1px;
+}
+.delete-img {
+  height: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.stars-img {
+  height: 10px;
+}
+.letter-background {
+  background-color: green;
+  border-radius: 120px;
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+}
+button {
+  background: transparent;
+  border-width: 0px;
+}
